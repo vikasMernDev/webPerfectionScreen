@@ -1,0 +1,22 @@
+/* src/components/BottomTabs.css */
+.bottom-tabs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.tab a {
+  color: aliceblue;
+}
+.tab.active {
+  background-color: #555;
+}
